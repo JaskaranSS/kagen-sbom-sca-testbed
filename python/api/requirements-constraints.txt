@@ -1,0 +1,3 @@
+# constraints (pulled in with -c)
+idna==2.7
+certifi==2019.11.28

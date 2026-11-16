@@ -1,0 +1,34 @@
+{
+  "name": "web-frontend",
+  "version": "1.4.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lodash": "4.17.15",
+    "axios": "0.21.1",
+    "minimist": "1.2.5",
+    "node-fetch": "2.6.0",
+    "jsonwebtoken": "8.5.1",
+    "express": "4.17.1",
+    "moment": "2.29.1",
+    "ua-parser-js": "0.7.28",
+    "marked": "0.3.6",
+    "xmldom": "0.6.0",
+    "gpl-widget-kit": "1.0.0",
+    "agpl-telemetry": "2.1.0",
+    "dual-licensed-util": "3.0.0",
+    "internal-private-sdk": "0.0.1",
+    "no-license-helper": "1.2.3",
+    "@kagen/shared-ui": "file:packages/shared-ui"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}

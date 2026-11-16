@@ -1,0 +1,188 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "kagen-sbom-sca-testbed",
+  "documentNamespace": "https://example.com/spdx/kagen-testbed-1",
+  "creationInfo": {
+    "created": "2026-11-16T00:00:00Z",
+    "creators": [
+      "Tool: kagen-testbed-generator"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-root",
+      "name": "kagen-sbom-sca-testbed",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-0",
+      "name": "lodash",
+      "versionInfo": "4.17.15",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash@4.17.15"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-1",
+      "name": "axios",
+      "versionInfo": "0.21.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/axios@0.21.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-2",
+      "name": "log4j-core",
+      "versionInfo": "2.14.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-3",
+      "name": "django",
+      "versionInfo": "2.2.0",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/django@2.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-4",
+      "name": "text",
+      "versionInfo": "v0.3.6",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/text@v0.3.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-5",
+      "name": "nokogiri",
+      "versionInfo": "1.10.0",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/nokogiri@1.10.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-6",
+      "name": "Newtonsoft.Json",
+      "versionInfo": "12.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Newtonsoft.Json@12.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pkg-7",
+      "name": "hyper",
+      "versionInfo": "0.14.9",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/hyper@0.14.9"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-root"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-5"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-6"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-pkg-7"
+    }
+  ]
+}

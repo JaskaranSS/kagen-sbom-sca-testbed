@@ -1,0 +1,2 @@
+com.squareup.okhttp3:okhttp:3.12.0=runtimeClasspath
+com.squareup.okio:okio:1.15.0=runtimeClasspath

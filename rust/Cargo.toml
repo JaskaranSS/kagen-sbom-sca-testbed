@@ -1,0 +1,5 @@
+[workspace]
+members = ["crates/api"]
+
+[workspace.dependencies]
+tokio = "=1.8.0"

@@ -1,0 +1,4 @@
+# shared base pins (pulled in with -r)
+paramiko==2.4.1
+lxml==4.6.2
+numpy==1.19.0

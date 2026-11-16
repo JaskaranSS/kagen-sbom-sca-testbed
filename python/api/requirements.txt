@@ -1,0 +1,20 @@
+# Production requirements for the API service
+-r requirements-base.txt
+-c requirements-constraints.txt
+--index-url https://pypi.org/simple
+--trusted-host pypi.org
+
+Django==2.2.0
+requests[security]==2.19.1
+PyYAML==5.3
+Jinja2==2.10
+urllib3==1.24.1 ; python_version >= "3.6"
+Flask==0.12.2
+Werkzeug==0.15.3  # pinned for Flask
+sqlparse==0.4.1 \
+    --hash=sha256:83f0c5831bc35feffb0100b32b710001cedf7c69716883dddf4472802e6bcb0a
+celery>=4.0,<5.0
+gunicorn~=19.9.0
+python-jose
+-e git+https://github.com/example/internal-lib.git#egg=internal-lib
+./vendor/local-wheel-1.0.0-py3-none-any.whl

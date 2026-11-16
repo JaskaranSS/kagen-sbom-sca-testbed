@@ -1,0 +1,39 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MessagePack/2.1.80": {
+        "type": "package",
+        "dependencies": {
+          "MessagePack.Annotations": "2.1.80"
+        }
+      },
+      "MessagePack.Annotations/2.1.80": {
+        "type": "package"
+      },
+      "System.Drawing.Common/4.7.0": {
+        "type": "package"
+      },
+      "Worker.Shared/1.0.0": {
+        "type": "project"
+      }
+    }
+  },
+  "project": {
+    "version": "1.0.0",
+    "frameworks": {
+      "net6.0": {
+        "dependencies": {
+          "MessagePack": {
+            "target": "Package",
+            "version": "[2.1.80, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          }
+        }
+      }
+    }
+  }
+}

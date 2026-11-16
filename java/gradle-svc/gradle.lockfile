@@ -1,0 +1,13 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+com.google.guava:guava:29.0-jre=compileClasspath,runtimeClasspath
+com.google.guava:failureaccess:1.0.1=compileClasspath,runtimeClasspath
+io.netty:netty-codec-http:4.1.42.Final=compileClasspath,runtimeClasspath
+io.netty:netty-codec:4.1.42.Final=compileClasspath,runtimeClasspath
+org.yaml:snakeyaml:1.26=compileClasspath,runtimeClasspath
+org.bouncycastle:bcprov-jdk15on:1.65=compileClasspath,runtimeClasspath
+mysql:mysql-connector-java:8.0.16=runtimeClasspath
+com.google.protobuf:protobuf-java:3.6.1=runtimeClasspath
+this-line-is-malformed
+empty=annotationProcessor

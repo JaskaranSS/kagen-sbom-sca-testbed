@@ -1,0 +1,8 @@
+{
+  "name": "kagen/testbed-php",
+  "require": {
+    "guzzlehttp/guzzle": "6.5.5",
+    "symfony/http-kernel": "4.4.0",
+    "laravel/framework": "8.4.1"
+  }
+}

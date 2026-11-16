@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "hash": {
+      "sha256": "ab66447e52617621f1fb35f90f45df69d0c23dfc72f91cfbecd8fb33f35a34fd"
+    },
+    "pipfile-spec": 6,
+    "requires": {
+      "python_version": "3.9"
+    },
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.org/simple",
+        "verify_ssl": true
+      }
+    ]
+  },
+  "default": {
+    "pillow": {
+      "hashes": [
+        "sha256:f6000d4ef895fd961f1357ef1cdc690203b81a06fd8f19a54a0e37ce75900038"
+      ],
+      "index": "pypi",
+      "version": "==8.1.0"
+    },
+    "cryptography": {
+      "hashes": [
+        "sha256:e06554818e902b4ba339f066967c0000da3fcda4fd7eb4ef89c124fa78bda419"
+      ],
+      "version": "==3.2"
+    },
+    "aiohttp": {
+      "hashes": [
+        "sha256:2f6aee0ecbf53b6b3760ba0a15c5cbc47898bdcdab1db521a63ad99a7bca3d98"
+      ],
+      "markers": "python_version >= '3.6'",
+      "version": "==3.7.3"
+    },
+    "pyjwt": {
+      "version": "==1.7.1"
+    },
+    "cffi": {
+      "version": "==1.14.4"
+    },
+    "py": {
+      "version": "==1.9.0"
+    }
+  },
+  "develop": {
+    "black": {
+      "version": "==19.10b0"
+    },
+    "babel": {
+      "version": "==2.8.0"
+    }
+  }
+}

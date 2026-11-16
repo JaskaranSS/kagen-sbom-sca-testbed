@@ -1,0 +1,11 @@
+{
+  "name": "yarn-berry",
+  "version": "2.0.0",
+  "license": "Apache-2.0",
+  "packageManager": "yarn@4.1.0",
+  "dependencies": {
+    "ws": "^7.4.5",
+    "trim-newlines": "^3.0.0",
+    "my-semver": "npm:semver@7.3.2"
+  }
+}

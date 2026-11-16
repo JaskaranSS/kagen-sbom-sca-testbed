@@ -1,0 +1,14 @@
+{
+  "name": "legacy-ui",
+  "version": "0.9.0",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "4.0.11",
+    "jquery": "2.2.4",
+    "angular": "1.5.8",
+    "bootstrap": "3.3.7",
+    "lodash": "4.17.11",
+    "underscore": "1.12.0",
+    "dot-prop": "4.2.0"
+  }
+}

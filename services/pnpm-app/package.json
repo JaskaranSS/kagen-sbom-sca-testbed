@@ -1,0 +1,14 @@
+{
+  "name": "pnpm-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "tar": "4.4.13",
+    "glob-parent": "5.1.1",
+    "nth-check": "1.0.2",
+    "shell-quote": "1.7.2"
+  },
+  "devDependencies": {
+    "ansi-regex": "5.0.0"
+  }
+}

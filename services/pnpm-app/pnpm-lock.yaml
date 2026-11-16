@@ -1,0 +1,79 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      glob-parent:
+        specifier: 5.1.1
+        version: 5.1.1
+      nth-check:
+        specifier: 1.0.2
+        version: 1.0.2
+      shell-quote:
+        specifier: 1.7.2
+        version: 1.7.2
+      tar:
+        specifier: 4.4.13
+        version: 4.4.13
+    devDependencies:
+      ansi-regex:
+        specifier: 5.0.0
+        version: 5.0.0
+
+packages:
+
+  ansi-regex@5.0.0:
+    resolution: {integrity: sha512-BDF39nu/LjJvwBfBQ02buq9UG/hYvdzFgxQXBysrYbU/NTtJf5ITPROt1ymQUWobVo1wZPNGF+6wEWDAdl1LWA==}
+    engines: {node: '>=8'}
+
+  boolbase@1.0.0:
+    resolution: {integrity: sha512-eiTA1B4Eh9bB9QDWBCpFUP7yBBp+u1aHaLYpsUcl8hQ3o4MP4NkaUn6Fo6KXHLVGNlVPM2DYfidoPwC2FJ1PVw==}
+
+  chownr@1.1.4:
+    resolution: {integrity: sha512-N0gorW3o0i2dEP7uq8kqiKh/BZqVR+BruygpwziZH1XD5FIVGhOz8sjJWEWpcjSOLyIB3CPCm+tAw1fBqzv5gA==}
+
+  glob-parent@5.1.1:
+    resolution: {integrity: sha512-c9r6SqurXlc9ieQEqyXaQJr9Y009NAox+00CC+zWXnTiHB+BpcVbJPlhAcDgAKDohZ2hkXvGqZRhVJ8HSsmupw==}
+    engines: {node: '>= 6'}
+
+  is-glob@4.0.3:
+    resolution: {integrity: sha512-F6OvIxi8d/0KuWDd3NPcgKCODWvtevRmH14qpjTSB7ht4uypceA8jrK4Nh2xrWRdPSaJG6mu60YXUlhcEXOmXA==}
+
+  nth-check@1.0.2:
+    resolution: {integrity: sha512-nd2oiH0NnkSJ7/pqrI9lS80cwas8hnKlkBmHrE4Giz7y6NxqMgFlYTJ9NU2YNHlx0/j6sGFjCYlxyRHl1n0OmA==}
+
+  shell-quote@1.7.2:
+    resolution: {integrity: sha512-P3G5O8I1V2cv5/KrzjBhh6JGVulwAHlaZ4Q+gcdixQH4cTEIHI2zv92beZ5FyE67Ikb29Lb+mCTLsFM3MAnnWA==}
+
+  tar@4.4.13:
+    resolution: {integrity: sha512-/CEEljNcetjYPVVLdbgI4osMbo1tvFSRup5gDBHnHm2/ABPy1A/+PW3I4ZG+M+i9aghrb5CQW7U4GcghrRmWdg==}
+    engines: {node: '>=4.5'}
+
+snapshots:
+
+  ansi-regex@5.0.0: {}
+
+  boolbase@1.0.0: {}
+
+  chownr@1.1.4: {}
+
+  glob-parent@5.1.1:
+    dependencies:
+      is-glob: 4.0.3
+
+  is-glob@4.0.3: {}
+
+  nth-check@1.0.2:
+    dependencies:
+      boolbase: 1.0.0
+
+  shell-quote@1.7.2: {}
+
+  tar@4.4.13:
+    dependencies:
+      chownr: 1.1.4

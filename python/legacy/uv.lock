@@ -1,0 +1,7 @@
+version = 1
+requires-python = ">=3.10"
+
+[[package]]
+name = "gradio"
+version = "3.13.0"
+source = { registry = "https://pypi.org/simple" }

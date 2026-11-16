@@ -1,0 +1,11 @@
+{
+  "name": "yarn-classic",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "serialize-javascript": "^2.1.0",
+    "kind-of": "^6.0.2",
+    "set-value": "^2.0.0",
+    "elliptic": "6.5.3"
+  }
+}
